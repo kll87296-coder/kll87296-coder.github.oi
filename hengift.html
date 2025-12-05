@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hendgitf Jewelry</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-800 via-purple-700 to-indigo-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center p-5 bg-opacity-30 backdrop-blur-md fixed w-full top-0 z-50 border-b border-purple-400/30">
+    <h1 class="text-2xl font-bold tracking-wide">💎 Hendgitf</h1>
+    <nav class="space-x-6">
+      <a href="#home" class="hover:text-purple-300">Home</a>
+      <a href="#produk" class="hover:text-purple-300">Produk</a>
+      <a href="#tentang" class="hover:text-purple-300">Tentang</a>
+      <a href="#kontak" class="hover:text-purple-300">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
+    <h2 class="text-5xl font-bold mb-4 drop-shadow-lg">Elegan, Mewah, dan Memikat</h2>
+    <p class="text-lg text-purple-200 mb-8 max-w-2xl">Hendgitf menghadirkan koleksi kalung eksklusif yang memadukan keindahan desain dan kemewahan material terbaik.</p>
+    <a href="#produk" class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300">Lihat Koleksi</a>
+  </section>
+
+  <!-- Produk Section -->
+  <section id="produk" class="py-20 bg-gradient-to-t from-purple-900/40 to-blue-900/30">
+    <h3 class="text-4xl font-bold text-center mb-12">Koleksi Terbaru</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 px-8 md:px-20">
+      <!-- Produk 1 -->
+      <div class="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 text-center">
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/06/15/necklace-1866788_1280.jpg" alt="Kalung 1" class="rounded-xl mb-4 mx-auto h-56 object-cover">
+        <h4 class="text-xl font-semibold mb-2">Kalung Kristal Aurora</h4>
+        <p class="text-purple-200 mb-3">Desain berkilau dengan batu kristal mewah.</p>
+        <span class="block text-lg font-bold text-purple-300 mb-4">Rp 450.000</span>
+        <button class="bg-purple-600 hover:bg-purple-700 px-5 py-2 rounded-full">Beli Sekarang</button>
+      </div>
+      <!-- Produk 2 -->
+      <div class="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 text-center">
+        <img src="https://cdn.pixabay.com/photo/2017/08/06/17/33/jewelry-2598048_1280.jpg" alt="Kalung 2" class="rounded-xl mb-4 mx-auto h-56 object-cover">
+        <h4 class="text-xl font-semibold mb-2">Kalung Berlian Moonlight</h4>
+        <p class="text-purple-200 mb-3">Sentuhan lembut yang memancarkan keanggunan malam.</p>
+        <span class="block text-lg font-bold text-purple-300 mb-4">Rp 650.000</span>
+        <button class="bg-purple-600 hover:bg-purple-700 px-5 py-2 rounded-full">Beli Sekarang</button>
+      </div>
+      <!-- Produk 3 -->
+      <div class="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 text-center">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/necklace-1236419_1280.jpg" alt="Kalung 3" class="rounded-xl mb-4 mx-auto h-56 object-cover">
+        <h4 class="text-xl font-semibold mb-2">Kalung Emas Lavender</h4>
+        <p class="text-purple-200 mb-3">Cocok untuk hadiah berkesan dan elegan.</p>
+        <span class="block text-lg font-bold text-purple-300 mb-4">Rp 550.000</span>
+        <button class="bg-purple-600 hover:bg-purple-700 px-5 py-2 rounded-full">Beli Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-20 px-6 md:px-20 text-center bg-gradient-to-br from-indigo-900/50 to-purple-800/40">
+    <h3 class="text-4xl font-bold mb-6">Tentang Hendgitf</h3>
+    <p class="max-w-3xl mx-auto text-purple-200 leading-relaxed">
+      Hendgitf adalah toko perhiasan modern yang mengutamakan kualitas dan keanggunan. 
+      Setiap kalung dibuat dengan detail sempurna oleh pengrajin profesional. 
+      Kami percaya setiap pelanggan berhak tampil menawan dan percaya diri dengan sentuhan elegan dari produk kami.
+    </p>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-20 bg-purple-900/30 text-center">
+    <h3 class="text-4xl font-bold mb-8">Hubungi Kami</h3>
+    <p class="text-purple-200 mb-8">Ingin memesan atau bertanya? Hubungi kami melalui form berikut:</p>
+    <form class="max-w-lg mx-auto space-y-5">
+      <input type="text" placeholder="Nama Anda" class="w-full p-3 rounded-lg text-gray-800" required>
+      <input type="email" placeholder="Email" class="w-full p-3 rounded-lg text-gray-800" required>
+      <textarea placeholder="Pesan" rows="4" class="w-full p-3 rounded-lg text-gray-800" required></textarea>
+      <button type="submit" class="bg-purple-700 hover:bg-purple-800 text-white font-semibold px-8 py-3 rounded-full">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-indigo-950 text-purple-300 border-t border-purple-500/30">
+    <p>© 2025 Hendgitf Jewelry. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
